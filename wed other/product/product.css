@@ -1,0 +1,13 @@
+.breadcrumb{
+    height: 41px;
+    display: flex;
+    align-items: center;
+}
+.breadcrumb li {
+    color: #999999;
+    font-size: 12px;
+}
+.breadcrumb_icon{
+    margin:0 8px;
+
+}
