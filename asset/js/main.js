@@ -147,27 +147,46 @@ var arr=[
         id:"https://s3-hd.hotdeal.vn/original/2021/5/2/60af7c87120f2-1180x450.jpg"
     }
 ]
+// animation
+
 // pc
+// onanimationend lang nghe su kien animetion
 var cirles=$$(".advertise_pape_next li");
 var image=$(".advertise_top_img");
+
+
 $(".next_right").onclick=function(){
+    image.classList.add('animation');
+    // ----------------------------------------------------------best ganh team
+    image.onanimationend=()=>{
+        image.classList.remove('animation');
+    }
+    
     let vt;
     let img=image.getAttribute('src');
-    arr.forEach((i,index)=>{
-        if(i.id==img){
-            vt=index
+        arr.forEach((i,index)=>{
+            if(i.id==img){
+                vt=index
+            }
+        });
+        if(vt<arr.length-1){
+            image.setAttribute('src',arr[vt+1].id);      
         }
-    });
-    if(vt<arr.length-1){
-        image.setAttribute('src',arr[vt+1].id);      
-    }
-    else{
-        image.setAttribute('src',arr[0].id);
-    }
-    changeColor();
+        else{
+            image.setAttribute('src',arr[0].id);
+        }
+        
+        changeColor();
+    
+  
+ 
 }
-
 $(".next_left").onclick=function(){
+    image.classList.add('animation');
+    // ----------------------------------------------------------best ganh team
+    image.onanimationend=()=>{
+        image.classList.remove('animation');
+    }
     let vt;
     let img=image.getAttribute('src');
     arr.forEach((i,index)=>{
@@ -205,15 +224,25 @@ function changeColor(){
 changeImg=(data)=>{
     cirles.forEach((i,index)=>{
         if(i===data){
+            image.classList.add('animation');
+            // ----------------------------------------------------------best ganh team
+            image.onanimationend=()=>{
+                image.classList.remove('animation');
+            }
             image.setAttribute('src',arr[index].id);
         }
     })
     changeColor();
 }
-setInterval($(".next_right").onclick,5000);
+setInterval($(".next_right").onclick,4000)
 //------------ mobi
 var m_image=$(".m_advertise_top_img");
 $(".m_next_right").onclick=function(){
+    m_image.classList.add('animation');
+    // ----------------------------------------------------------best ganh team
+    m_image.onanimationend=()=>{
+        m_image.classList.remove('animation');
+    }
     let vt;
     let img=m_image.getAttribute('src');
     arr.forEach((i,index)=>{
@@ -231,6 +260,11 @@ $(".m_next_right").onclick=function(){
 }
 
 $(".m_next_left").onclick=function(){
+    m_image.classList.add('animation');
+    // ----------------------------------------------------------best ganh team
+    m_image.onanimationend=()=>{
+        m_image.classList.remove('animation');
+    }
     let vt;
     let img=m_image.getAttribute('src');
     arr.forEach((i,index)=>{
@@ -247,5 +281,5 @@ $(".m_next_left").onclick=function(){
     }
     changeColor();
 }
-setInterval($(".m_next_right").onclick,5000);
+setInterval($(".m_next_right").onclick,8000);
 // end chuyen trang

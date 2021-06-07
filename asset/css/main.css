@@ -301,9 +301,6 @@ body{
     top: 38px;
     right: 2px;
 }
-.advertise_top_img{
-    animation: fadein linear 0.3s;
-}
 /* cart */
 .header__cart{
     position:relative;
@@ -969,6 +966,7 @@ footer{
     display:flex;
     justify-content:center;
     align-items: center;
+    z-index: 5;
     
 }
 .next_left{
@@ -983,3 +981,4 @@ footer{
     color:white;
     font-size: 20px;
 }
+
