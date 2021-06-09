@@ -194,6 +194,14 @@
         padding: 4px;
         margin-right: 6px;
     }
+    .review_rate_stars_wrap{
+        flex-direction: column;
+        height: auto;
+    }
+    .review_rate_stars_sum{
+        width: 100%;
+        margin-bottom: 10px;
+    }
 }
 @media (max-width:400px){
     .user_buy{
