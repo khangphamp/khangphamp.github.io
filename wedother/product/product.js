@@ -146,4 +146,29 @@ openviewAll=(data)=>{
 
     }
 }
+// hover category
 
+var hover_category=AA(".category_main_list_extra");
+hover_category.forEach(item=>{
+});
+var hover_category_list= A(".category_main_list_hover")
+onhover=(data)=>{
+    data.querySelector(".category_main_list_hover").style.display="block";
+}
+offhover=(data)=>{
+    data.querySelector(".category_main_list_hover").style.display="none";
+}
+
+// A(".category_main").addEventListener("mouseover",()=>{
+//     A(".category_main_lists").style.display="block"
+// });
+// A(".category_main_lists").addEventListener("mouseover",()=>{
+//     A(".category_main_lists").style.display="block"
+// });
+// A(".category_main").addEventListener("mouseout",()=>{
+//     A(".category_main_lists").style.display="none"
+// });
+// A(".category_main_lists").addEventListener("mouseup",()=>{
+//     A(".category_main_lists").style.display="none"
+// });
+  

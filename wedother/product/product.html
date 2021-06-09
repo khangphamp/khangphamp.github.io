@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="../../asset/css/mobi.css">
     <link rel="stylesheet" href="../../asset/css/reponsive.css">
     <link rel="stylesheet" href="./product.css">
+    <link rel="stylesheet" href="reponsive_product.css">
   
 </head>
 
@@ -428,16 +429,915 @@
         <!-- header shop mobi -->
         <div class="contenter_shop_categogy_warp">
             <div class="contenter_shop_categogy grid wide">
-                <li class="shop_categogy_list category_main">DANH MỤC <i style="font-size:18px"
-                        class="fa fa-angle-down"></i></li>
+                <div class="wrap_product_hover_category" style="position: relative;">
+                    <li class="shop_categogy_list category_main">DANH MỤC <i style="font-size:18px"
+                           class="fa fa-angle-down"></i>                      
+                    </li>
+                     <!-- hover category -->
+            <div class="category_main_lists">
+                      
+                <li class="category_main_list category_main_list_main " style="color:red">
+                    <a href="">
+                    <span>
+                        <i class="fas fa-shopping-bag"></i>
+                        <span class="category_main_list_text">KHUYẾN MÃI HOT</span>
+                    </span>                              
+                        <i class="fas fa-chevron-right"></i>
+                    </a>   
+                </li>
+                             
+                <li onmouseover="onhover(this)" onmouseout="offhover(this)" class="category_main_list category_main_list_extra">
+                    <a href="">
+                    <span>
+                        <i class="fas fa-shopping-bag"></i> 
+                        <span class="category_main_list_text">Ẩm Thực</span>
+                    </span>
+                    <i class="fas fa-chevron-right"></i>
+                    </a>
+                     <!-- hover list-item -->
+                    <div class="category_main_list_hover" style="display: none;">
+                        <!-- <div class=" col p-6"> -->
+                            <div class="row">
+                                <div style="padding: 24px 0 24px 36px;" class=" col p-6">
+                                    <div class="row">
+                                        <div class=" col p-6">
+                                            <div class="in_category_list_header">
+                                                <div>
+                                                    <span class="in_category_list_btn">HOT</span>
+                                                    <span class="in_category_list_btn_info">Bán chạy</span>
+                                                </div>
+                                                <div>
+                                                    <span class="in_category_list_btn">NEW</span>
+                                                    <span class="in_category_list_btn_info">Hàng mới</span>
+                                                </div>
+                                                <div>
+                                                    <span class="in_category_list_btn">SALE</span>
+                                                    <span class="in_category_list_btn_info">Giảm giá</span>
+                                                </div>
+                                            </div>
+                                            <div class="category_list_little">
+                                                <div class="category_list_little_name"> 
+                                                    Dịch vụ ẩm thực                                   
+                                                </div>
+                                                <span><a class="category_list_little_item" href="">Buffe</a></span>
+                                                <span><a class="category_list_little_item" href="">Nhà hàng</a></span>
+                                                <span><a class="category_list_little_item" href="">Quán ăn</a></span>
+                                                <span><a class="category_list_little_item" href="">Đặc biệt</a></span>
+                                                <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                            </div>
+                                            <div class="category_list_little">
+                                                <div class="category_list_little_name"> 
+                                                    Đồ ăn ngon                                   
+                                                </div>
+                                                <span><a class="category_list_little_item" href="">Bánh giọt</a></span>
+                                                <span><a class="category_list_little_item" href="">Kem</a></span>
+                                                <span><a class="category_list_little_item" href="">Nước uống</a></span>
+                                                <span><a class="category_list_little_item" href="">Pizza</a></span>
+                                                <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                            </div>
+                                        </div>
+                                        <div class="col p-6">
+                                            <div class="category_list_little">
+                                                <div class="category_list_little_name"> 
+                                                    Dịch vụ ẩm thực                                   
+                                                </div>
+                                                <span><a class="category_list_little_item" href="">Buffe</a></span>
+                                                <span><a class="category_list_little_item" href="">Nhà hàng</a></span>
+                                                <span><a class="category_list_little_item" href="">Quán ăn</a></span>
+                                                <span><a class="category_list_little_item" href="">Đặc biệt</a></span>
+                                                <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                            </div>
+                                            <div class="category_list_little">
+                                                <div class="category_list_little_name"> 
+                                                    Đồ ăn ngon                                   
+                                                </div>
+                                                <span><a class="category_list_little_item" href="">Bánh giọt</a></span>
+                                                <span><a class="category_list_little_item" href="">Kem</a></span>
+                                                <span><a class="category_list_little_item" href="">Nước uống</a></span>
+                                                <span><a class="category_list_little_item" href="">Pizza</a></span>
+                                                <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                            </div>
+                                            <div class="category_list_little">
+                                                <div class="category_list_little_name"> 
+                                                    Dịch vụ ẩm thực                                   
+                                                </div>
+                                                <span><a class="category_list_little_item" href="">Buffe</a></span>
+                                                <span><a class="category_list_little_item" href="">Nhà hàng</a></span>
+                                                <span><a class="category_list_little_item" href="">Quán ăn</a></span>
+                                                <span><a class="category_list_little_item" href="">Đặc biệt</a></span>
+                                                <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                </div>                                         
+                                <div class="category_list_hover_img col p-6">
+                                <img src="https://s3-hd.hotdeal.vn/original/2021/4/0/606d6d71acc4c-330x520.jpg">
+                                </div>
+                            </div>
+                        
+                    </div>
+                </li>
+                <li onmouseover="onhover(this)" onmouseout="offhover(this)" class="category_main_list category_main_list_extra">
+                    <a href="">
+                        <span>
+                            <i class="fas fa-shopping-bag"></i> 
+                            <span class="category_main_list_text">Spa &amp; Làm đẹp</span>
+                        </span>
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                      <!-- hover list-item -->
+                      <div class="category_main_list_hover" style="display: none;">
+                        <!-- <div class=" col p-6"> -->
+                            <div class="row">
+                                <div style="padding: 24px 0 24px 36px;" class=" col p-6">
+                                    <div class="row">
+                                        <div class=" col p-6">
+                                            <div class="in_category_list_header">
+                                                <div>
+                                                    <span class="in_category_list_btn">HOT</span>
+                                                    <span class="in_category_list_btn_info">Bán chạy</span>
+                                                </div>
+                                                <div>
+                                                    <span class="in_category_list_btn">NEW</span>
+                                                    <span class="in_category_list_btn_info">Hàng mới</span>
+                                                </div>
+                                                <div>
+                                                    <span class="in_category_list_btn">SALE</span>
+                                                    <span class="in_category_list_btn_info">Giảm giá</span>
+                                                </div>
+                                            </div>
+                                            <div class="category_list_little">
+                                                <div class="category_list_little_name"> 
+                                                    Dịch vụ ẩm thực                                   
+                                                </div>
+                                                <span><a class="category_list_little_item" href="">Buffe</a></span>
+                                                <span><a class="category_list_little_item" href="">Nhà hàng</a></span>
+                                                <span><a class="category_list_little_item" href="">Quán ăn</a></span>
+                                                <span><a class="category_list_little_item" href="">Đặc biệt</a></span>
+                                                <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                            </div>
+                                            <div class="category_list_little">
+                                                <div class="category_list_little_name"> 
+                                                    Đồ ăn ngon                                   
+                                                </div>
+                                                <span><a class="category_list_little_item" href="">Bánh giọt</a></span>
+                                                <span><a class="category_list_little_item" href="">Kem</a></span>
+                                                <span><a class="category_list_little_item" href="">Nước uống</a></span>
+                                                <span><a class="category_list_little_item" href="">Pizza</a></span>
+                                                <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                            </div>
+                                        </div>
+                                        <div class="col p-6">
+                                            <div class="category_list_little">
+                                                <div class="category_list_little_name"> 
+                                                    Dịch vụ ẩm thực                                   
+                                                </div>
+                                                <span><a class="category_list_little_item" href="">Buffe</a></span>
+                                                <span><a class="category_list_little_item" href="">Nhà hàng</a></span>
+                                                <span><a class="category_list_little_item" href="">Quán ăn</a></span>
+                                                <span><a class="category_list_little_item" href="">Đặc biệt</a></span>
+                                                <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                            </div>
+                                            <div class="category_list_little">
+                                                <div class="category_list_little_name"> 
+                                                    Đồ ăn ngon                                   
+                                                </div>
+                                                <span><a class="category_list_little_item" href="">Bánh giọt</a></span>
+                                                <span><a class="category_list_little_item" href="">Kem</a></span>
+                                                <span><a class="category_list_little_item" href="">Nước uống</a></span>
+                                                <span><a class="category_list_little_item" href="">Pizza</a></span>
+                                                <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                            </div>
+                                            <div class="category_list_little">
+                                                <div class="category_list_little_name"> 
+                                                    Dịch vụ ẩm thực                                   
+                                                </div>
+                                                <span><a class="category_list_little_item" href="">Buffe</a></span>
+                                                <span><a class="category_list_little_item" href="">Nhà hàng</a></span>
+                                                <span><a class="category_list_little_item" href="">Quán ăn</a></span>
+                                                <span><a class="category_list_little_item" href="">Đặc biệt</a></span>
+                                                <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                </div>                                         
+                                <div class="category_list_hover_img col p-6">
+                                <img src="https://s3-hd.hotdeal.vn/original/2021/4/0/606d6d71acc4c-330x520.jpg">
+                                </div>
+                            </div>
+                        
+                    </div>
+                </li>                          
+                <li onmouseover="onhover(this)" onmouseout="offhover(this)" class="category_main_list category_main_list_extra"> 
+                    <a href="">
+                        <span>
+                            <i class="fas fa-shopping-bag"></i> 
+                            <span class="category_main_list_text">Giải trí &amp; Thể Thao</span>
+                        </span>
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                     <!-- hover list-item -->
+                     <div class="category_main_list_hover" style="display: block;">
+                        <!-- <div class=" col p-6"> -->
+                            <div class="row">
+                                <div style="padding: 24px 0 24px 36px;" class=" col p-6">
+                                    <div class="row">
+                                        <div class=" col p-6">
+                                            <div class="in_category_list_header">
+                                                <div>
+                                                    <span class="in_category_list_btn">HOT</span>
+                                                    <span class="in_category_list_btn_info">Bán chạy</span>
+                                                </div>
+                                                <div>
+                                                    <span class="in_category_list_btn">NEW</span>
+                                                    <span class="in_category_list_btn_info">Hàng mới</span>
+                                                </div>
+                                                <div>
+                                                    <span class="in_category_list_btn">SALE</span>
+                                                    <span class="in_category_list_btn_info">Giảm giá</span>
+                                                </div>
+                                            </div>
+                                            <div class="category_list_little">
+                                                <div class="category_list_little_name"> 
+                                                    Dịch vụ ẩm thực                                   
+                                                </div>
+                                                <span><a class="category_list_little_item" href="">Buffe</a></span>
+                                                <span><a class="category_list_little_item" href="">Nhà hàng</a></span>
+                                                <span><a class="category_list_little_item" href="">Quán ăn</a></span>
+                                                <span><a class="category_list_little_item" href="">Đặc biệt</a></span>
+                                                <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                            </div>
+                                            <div class="category_list_little">
+                                                <div class="category_list_little_name"> 
+                                                    Đồ ăn ngon                                   
+                                                </div>
+                                                <span><a class="category_list_little_item" href="">Bánh giọt</a></span>
+                                                <span><a class="category_list_little_item" href="">Kem</a></span>
+                                                <span><a class="category_list_little_item" href="">Nước uống</a></span>
+                                                <span><a class="category_list_little_item" href="">Pizza</a></span>
+                                                <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                            </div>
+                                        </div>
+                                        <div class="col p-6">
+                                            <div class="category_list_little">
+                                                <div class="category_list_little_name"> 
+                                                    Dịch vụ ẩm thực                                   
+                                                </div>
+                                                <span><a class="category_list_little_item" href="">Buffe</a></span>
+                                                <span><a class="category_list_little_item" href="">Nhà hàng</a></span>
+                                                <span><a class="category_list_little_item" href="">Quán ăn</a></span>
+                                                <span><a class="category_list_little_item" href="">Đặc biệt</a></span>
+                                                <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                            </div>
+                                            <div class="category_list_little">
+                                                <div class="category_list_little_name"> 
+                                                    Đồ ăn ngon                                   
+                                                </div>
+                                                <span><a class="category_list_little_item" href="">Bánh giọt</a></span>
+                                                <span><a class="category_list_little_item" href="">Kem</a></span>
+                                                <span><a class="category_list_little_item" href="">Nước uống</a></span>
+                                                <span><a class="category_list_little_item" href="">Pizza</a></span>
+                                                <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                            </div>
+                                            <div class="category_list_little">
+                                                <div class="category_list_little_name"> 
+                                                    Dịch vụ ẩm thực                                   
+                                                </div>
+                                                <span><a class="category_list_little_item" href="">Buffe</a></span>
+                                                <span><a class="category_list_little_item" href="">Nhà hàng</a></span>
+                                                <span><a class="category_list_little_item" href="">Quán ăn</a></span>
+                                                <span><a class="category_list_little_item" href="">Đặc biệt</a></span>
+                                                <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                </div>                                         
+                                <div class="category_list_hover_img col p-6">
+                                <img src="https://s3-hd.hotdeal.vn/original/2021/4/0/606d6d71acc4c-330x520.jpg">
+                                </div>
+                            </div>
+                        
+                    </div>
+                </li>                
+                <li onmouseover="onhover(this)" onmouseout="offhover(this)" class="category_main_list category_main_list_extra">
+                    <a href="">
+                        <span>
+                            <i class="fas fa-shopping-bag"></i> 
+                            <span class="category_main_list_text">Massage Nam Nữ</span>
+                        </span>
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                     <!-- hover list-item -->
+                     <div class="category_main_list_hover" style="display: none;">
+                        <!-- <div class=" col p-6"> -->
+                            <div class="row">
+                                <div style="padding: 24px 0 24px 36px;" class=" col p-6">
+                                    <div class="row">
+                                        <div class=" col p-6">
+                                            <div class="in_category_list_header">
+                                                <div>
+                                                    <span class="in_category_list_btn">HOT</span>
+                                                    <span class="in_category_list_btn_info">Bán chạy</span>
+                                                </div>
+                                                <div>
+                                                    <span class="in_category_list_btn">NEW</span>
+                                                    <span class="in_category_list_btn_info">Hàng mới</span>
+                                                </div>
+                                                <div>
+                                                    <span class="in_category_list_btn">SALE</span>
+                                                    <span class="in_category_list_btn_info">Giảm giá</span>
+                                                </div>
+                                            </div>
+                                            <div class="category_list_little">
+                                                <div class="category_list_little_name"> 
+                                                    Dịch vụ ẩm thực                                   
+                                                </div>
+                                                <span><a class="category_list_little_item" href="">Buffe</a></span>
+                                                <span><a class="category_list_little_item" href="">Nhà hàng</a></span>
+                                                <span><a class="category_list_little_item" href="">Quán ăn</a></span>
+                                                <span><a class="category_list_little_item" href="">Đặc biệt</a></span>
+                                                <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                            </div>
+                                            <div class="category_list_little">
+                                                <div class="category_list_little_name"> 
+                                                    Đồ ăn ngon                                   
+                                                </div>
+                                                <span><a class="category_list_little_item" href="">Bánh giọt</a></span>
+                                                <span><a class="category_list_little_item" href="">Kem</a></span>
+                                                <span><a class="category_list_little_item" href="">Nước uống</a></span>
+                                                <span><a class="category_list_little_item" href="">Pizza</a></span>
+                                                <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                            </div>
+                                        </div>
+                                        <div class="col p-6">
+                                            <div class="category_list_little">
+                                                <div class="category_list_little_name"> 
+                                                    Dịch vụ ẩm thực                                   
+                                                </div>
+                                                <span><a class="category_list_little_item" href="">Buffe</a></span>
+                                                <span><a class="category_list_little_item" href="">Nhà hàng</a></span>
+                                                <span><a class="category_list_little_item" href="">Quán ăn</a></span>
+                                                <span><a class="category_list_little_item" href="">Đặc biệt</a></span>
+                                                <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                            </div>
+                                            <div class="category_list_little">
+                                                <div class="category_list_little_name"> 
+                                                    Đồ ăn ngon                                   
+                                                </div>
+                                                <span><a class="category_list_little_item" href="">Bánh giọt</a></span>
+                                                <span><a class="category_list_little_item" href="">Kem</a></span>
+                                                <span><a class="category_list_little_item" href="">Nước uống</a></span>
+                                                <span><a class="category_list_little_item" href="">Pizza</a></span>
+                                                <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                            </div>
+                                            <div class="category_list_little">
+                                                <div class="category_list_little_name"> 
+                                                    Dịch vụ ẩm thực                                   
+                                                </div>
+                                                <span><a class="category_list_little_item" href="">Buffe</a></span>
+                                                <span><a class="category_list_little_item" href="">Nhà hàng</a></span>
+                                                <span><a class="category_list_little_item" href="">Quán ăn</a></span>
+                                                <span><a class="category_list_little_item" href="">Đặc biệt</a></span>
+                                                <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                </div>                                         
+                                <div class="category_list_hover_img col p-6">
+                                <img src="https://s3-hd.hotdeal.vn/original/2021/4/0/606d6d71acc4c-330x520.jpg">
+                                </div>
+                            </div>
+                        
+                    </div>
+                </li>                
+                <li class="category_main_list category_main_list_extra">
+                    <a href="">
+                        <span>
+                            <i class="fas fa-shopping-bag"></i> 
+                            <span class="category_main_list_text">Đào Tạo &amp; Hội Thảo</span>
+                        </span>
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </li>                
+                <li class="category_main_list category_main_list_extra">
+                    <a href="">
+                        <span>
+                            <i class="fas fa-shopping-bag"></i> 
+                            <span class="category_main_list_text">Bệnh viện &amp; Phòng Khám</span>
+                        </span>
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </li>                
+                <li class="category_main_list category_main_list_extra">
+                    <a href="">
+                        <span>
+                            <i class="fas fa-shopping-bag"></i> 
+                            <span class="category_main_list_text">Buffet</span>
+                        </span>
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </li>                
+                <li class="category_main_list category_main_list_extra">
+                    <a href="">
+                        <span>
+                            <i class="fas fa-shopping-bag"></i> 
+                            <span class="category_main_list_text">Nha Khoa</span>
+                        </span>
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </li>                
+                <li class="category_main_list category_main_list_extra">
+                    <a href="">
+                        <span>
+                            <i class="fas fa-shopping-bag"></i> 
+                            <span class="category_main_list_text">Tour du lịch</span>
+                        </span>
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </li>                
+                <li class="category_main_list category_main_list_extra">
+                    <a href="">
+                        <span>
+                            <i class="fas fa-shopping-bag"></i> 
+                            <span class="category_main_list_text">Hotel &amp; Resort</span>
+                        </span>
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </li>                
+                <li class="category_main_list category_main_list_extra">
+                    <a href="">
+                        <span>
+                            <i class="fas fa-shopping-bag"></i> 
+                            <span class="category_main_list_text">Vé Sự Kiện</span>
+                        </span>
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </li>                
+             </div>
+        <!--hover category  -->
+                </div>
                 <li class="shop_categogy_list shop_categogy_list_link"><a href="">DEAL MỚI</a></li>
                 <li class="shop_categogy_list shop_categogy_list_link"><a href="">DEAL BÁN CHẠY</a></li>
             </div>
+           
         </div>
         <div class="contenter_shop_categogy_warp contenter_shop_categogy_warp_fixed">
             <div class="contenter_shop_categogy grid wide">
-                <li class="shop_categogy_list category_main">DANH MỤC <i style="font-size:18px"
-                        class="fa fa-angle-down"></i></li>
+                <div class="wrap_product_hover_category" style="position: relative;">
+                    <li class="shop_categogy_list category_main">DANH MỤC <i style="font-size:18px"
+                            class="fa fa-angle-down"></i>                       
+                    </li>
+                     <!-- hover category -->
+                    <div class="category_main_lists">
+                            
+                        <li class="category_main_list category_main_list_main " style="color:red">
+                            <a href="">
+                            <span>
+                                <i class="fas fa-shopping-bag"></i>
+                                <span class="category_main_list_text">KHUYẾN MÃI HOT</span>
+                            </span>                              
+                                <i class="fas fa-chevron-right"></i>
+                            </a>   
+                        </li>
+                                    
+                        <li onmouseover="onhover(this)" onmouseout="offhover(this)" class="category_main_list category_main_list_extra">
+                            <a href="">
+                            <span>
+                                <i class="fas fa-shopping-bag"></i> 
+                                <span class="category_main_list_text">Ẩm Thực</span>
+                            </span>
+                            <i class="fas fa-chevron-right"></i>
+                            </a>
+                            <!-- hover list-item -->
+                            <div class="category_main_list_hover" style="display: none;">
+                                <!-- <div class=" col p-6"> -->
+                                    <div class="row">
+                                        <div style="padding: 24px 0 24px 36px;" class=" col p-6">
+                                            <div class="row">
+                                                <div class=" col p-6">
+                                                    <div class="in_category_list_header">
+                                                        <div>
+                                                            <span class="in_category_list_btn">HOT</span>
+                                                            <span class="in_category_list_btn_info">Bán chạy</span>
+                                                        </div>
+                                                        <div>
+                                                            <span class="in_category_list_btn">NEW</span>
+                                                            <span class="in_category_list_btn_info">Hàng mới</span>
+                                                        </div>
+                                                        <div>
+                                                            <span class="in_category_list_btn">SALE</span>
+                                                            <span class="in_category_list_btn_info">Giảm giá</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="category_list_little">
+                                                        <div class="category_list_little_name"> 
+                                                            Dịch vụ ẩm thực                                   
+                                                        </div>
+                                                        <span><a class="category_list_little_item" href="">Buffe</a></span>
+                                                        <span><a class="category_list_little_item" href="">Nhà hàng</a></span>
+                                                        <span><a class="category_list_little_item" href="">Quán ăn</a></span>
+                                                        <span><a class="category_list_little_item" href="">Đặc biệt</a></span>
+                                                        <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                                    </div>
+                                                    <div class="category_list_little">
+                                                        <div class="category_list_little_name"> 
+                                                            Đồ ăn ngon                                   
+                                                        </div>
+                                                        <span><a class="category_list_little_item" href="">Bánh giọt</a></span>
+                                                        <span><a class="category_list_little_item" href="">Kem</a></span>
+                                                        <span><a class="category_list_little_item" href="">Nước uống</a></span>
+                                                        <span><a class="category_list_little_item" href="">Pizza</a></span>
+                                                        <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                                    </div>
+                                                </div>
+                                                <div class="col p-6">
+                                                    <div class="category_list_little">
+                                                        <div class="category_list_little_name"> 
+                                                            Dịch vụ ẩm thực                                   
+                                                        </div>
+                                                        <span><a class="category_list_little_item" href="">Buffe</a></span>
+                                                        <span><a class="category_list_little_item" href="">Nhà hàng</a></span>
+                                                        <span><a class="category_list_little_item" href="">Quán ăn</a></span>
+                                                        <span><a class="category_list_little_item" href="">Đặc biệt</a></span>
+                                                        <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                                    </div>
+                                                    <div class="category_list_little">
+                                                        <div class="category_list_little_name"> 
+                                                            Đồ ăn ngon                                   
+                                                        </div>
+                                                        <span><a class="category_list_little_item" href="">Bánh giọt</a></span>
+                                                        <span><a class="category_list_little_item" href="">Kem</a></span>
+                                                        <span><a class="category_list_little_item" href="">Nước uống</a></span>
+                                                        <span><a class="category_list_little_item" href="">Pizza</a></span>
+                                                        <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                                    </div>
+                                                    <div class="category_list_little">
+                                                        <div class="category_list_little_name"> 
+                                                            Dịch vụ ẩm thực                                   
+                                                        </div>
+                                                        <span><a class="category_list_little_item" href="">Buffe</a></span>
+                                                        <span><a class="category_list_little_item" href="">Nhà hàng</a></span>
+                                                        <span><a class="category_list_little_item" href="">Quán ăn</a></span>
+                                                        <span><a class="category_list_little_item" href="">Đặc biệt</a></span>
+                                                        <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                        </div>                                         
+                                        <div class="category_list_hover_img col p-6">
+                                        <img src="https://s3-hd.hotdeal.vn/original/2021/4/0/606d6d71acc4c-330x520.jpg">
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                        </li>
+                        <li onmouseover="onhover(this)" onmouseout="offhover(this)" class="category_main_list category_main_list_extra">
+                            <a href="">
+                                <span>
+                                    <i class="fas fa-shopping-bag"></i> 
+                                    <span class="category_main_list_text">Spa &amp; Làm đẹp</span>
+                                </span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                            <!-- hover list-item -->
+                            <div class="category_main_list_hover" style="display: none;">
+                                <!-- <div class=" col p-6"> -->
+                                    <div class="row">
+                                        <div style="padding: 24px 0 24px 36px;" class=" col p-6">
+                                            <div class="row">
+                                                <div class=" col p-6">
+                                                    <div class="in_category_list_header">
+                                                        <div>
+                                                            <span class="in_category_list_btn">HOT</span>
+                                                            <span class="in_category_list_btn_info">Bán chạy</span>
+                                                        </div>
+                                                        <div>
+                                                            <span class="in_category_list_btn">NEW</span>
+                                                            <span class="in_category_list_btn_info">Hàng mới</span>
+                                                        </div>
+                                                        <div>
+                                                            <span class="in_category_list_btn">SALE</span>
+                                                            <span class="in_category_list_btn_info">Giảm giá</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="category_list_little">
+                                                        <div class="category_list_little_name"> 
+                                                            Dịch vụ ẩm thực                                   
+                                                        </div>
+                                                        <span><a class="category_list_little_item" href="">Buffe</a></span>
+                                                        <span><a class="category_list_little_item" href="">Nhà hàng</a></span>
+                                                        <span><a class="category_list_little_item" href="">Quán ăn</a></span>
+                                                        <span><a class="category_list_little_item" href="">Đặc biệt</a></span>
+                                                        <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                                    </div>
+                                                    <div class="category_list_little">
+                                                        <div class="category_list_little_name"> 
+                                                            Đồ ăn ngon                                   
+                                                        </div>
+                                                        <span><a class="category_list_little_item" href="">Bánh giọt</a></span>
+                                                        <span><a class="category_list_little_item" href="">Kem</a></span>
+                                                        <span><a class="category_list_little_item" href="">Nước uống</a></span>
+                                                        <span><a class="category_list_little_item" href="">Pizza</a></span>
+                                                        <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                                    </div>
+                                                </div>
+                                                <div class="col p-6">
+                                                    <div class="category_list_little">
+                                                        <div class="category_list_little_name"> 
+                                                            Dịch vụ ẩm thực                                   
+                                                        </div>
+                                                        <span><a class="category_list_little_item" href="">Buffe</a></span>
+                                                        <span><a class="category_list_little_item" href="">Nhà hàng</a></span>
+                                                        <span><a class="category_list_little_item" href="">Quán ăn</a></span>
+                                                        <span><a class="category_list_little_item" href="">Đặc biệt</a></span>
+                                                        <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                                    </div>
+                                                    <div class="category_list_little">
+                                                        <div class="category_list_little_name"> 
+                                                            Đồ ăn ngon                                   
+                                                        </div>
+                                                        <span><a class="category_list_little_item" href="">Bánh giọt</a></span>
+                                                        <span><a class="category_list_little_item" href="">Kem</a></span>
+                                                        <span><a class="category_list_little_item" href="">Nước uống</a></span>
+                                                        <span><a class="category_list_little_item" href="">Pizza</a></span>
+                                                        <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                                    </div>
+                                                    <div class="category_list_little">
+                                                        <div class="category_list_little_name"> 
+                                                            Dịch vụ ẩm thực                                   
+                                                        </div>
+                                                        <span><a class="category_list_little_item" href="">Buffe</a></span>
+                                                        <span><a class="category_list_little_item" href="">Nhà hàng</a></span>
+                                                        <span><a class="category_list_little_item" href="">Quán ăn</a></span>
+                                                        <span><a class="category_list_little_item" href="">Đặc biệt</a></span>
+                                                        <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                        </div>                                         
+                                        <div class="category_list_hover_img col p-6">
+                                        <img src="https://s3-hd.hotdeal.vn/original/2021/4/0/606d6d71acc4c-330x520.jpg">
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                        </li>                          
+                        <li onmouseover="onhover(this)" onmouseout="offhover(this)" class="category_main_list category_main_list_extra"> 
+                            <a href="">
+                                <span>
+                                    <i class="fas fa-shopping-bag"></i> 
+                                    <span class="category_main_list_text">Giải trí &amp; Thể Thao</span>
+                                </span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                            <!-- hover list-item -->
+                            <div class="category_main_list_hover" style="display: block;">
+                                <!-- <div class=" col p-6"> -->
+                                    <div class="row">
+                                        <div style="padding: 24px 0 24px 36px;" class=" col p-6">
+                                            <div class="row">
+                                                <div class=" col p-6">
+                                                    <div class="in_category_list_header">
+                                                        <div>
+                                                            <span class="in_category_list_btn">HOT</span>
+                                                            <span class="in_category_list_btn_info">Bán chạy</span>
+                                                        </div>
+                                                        <div>
+                                                            <span class="in_category_list_btn">NEW</span>
+                                                            <span class="in_category_list_btn_info">Hàng mới</span>
+                                                        </div>
+                                                        <div>
+                                                            <span class="in_category_list_btn">SALE</span>
+                                                            <span class="in_category_list_btn_info">Giảm giá</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="category_list_little">
+                                                        <div class="category_list_little_name"> 
+                                                            Dịch vụ ẩm thực                                   
+                                                        </div>
+                                                        <span><a class="category_list_little_item" href="">Buffe</a></span>
+                                                        <span><a class="category_list_little_item" href="">Nhà hàng</a></span>
+                                                        <span><a class="category_list_little_item" href="">Quán ăn</a></span>
+                                                        <span><a class="category_list_little_item" href="">Đặc biệt</a></span>
+                                                        <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                                    </div>
+                                                    <div class="category_list_little">
+                                                        <div class="category_list_little_name"> 
+                                                            Đồ ăn ngon                                   
+                                                        </div>
+                                                        <span><a class="category_list_little_item" href="">Bánh giọt</a></span>
+                                                        <span><a class="category_list_little_item" href="">Kem</a></span>
+                                                        <span><a class="category_list_little_item" href="">Nước uống</a></span>
+                                                        <span><a class="category_list_little_item" href="">Pizza</a></span>
+                                                        <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                                    </div>
+                                                </div>
+                                                <div class="col p-6">
+                                                    <div class="category_list_little">
+                                                        <div class="category_list_little_name"> 
+                                                            Dịch vụ ẩm thực                                   
+                                                        </div>
+                                                        <span><a class="category_list_little_item" href="">Buffe</a></span>
+                                                        <span><a class="category_list_little_item" href="">Nhà hàng</a></span>
+                                                        <span><a class="category_list_little_item" href="">Quán ăn</a></span>
+                                                        <span><a class="category_list_little_item" href="">Đặc biệt</a></span>
+                                                        <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                                    </div>
+                                                    <div class="category_list_little">
+                                                        <div class="category_list_little_name"> 
+                                                            Đồ ăn ngon                                   
+                                                        </div>
+                                                        <span><a class="category_list_little_item" href="">Bánh giọt</a></span>
+                                                        <span><a class="category_list_little_item" href="">Kem</a></span>
+                                                        <span><a class="category_list_little_item" href="">Nước uống</a></span>
+                                                        <span><a class="category_list_little_item" href="">Pizza</a></span>
+                                                        <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                                    </div>
+                                                    <div class="category_list_little">
+                                                        <div class="category_list_little_name"> 
+                                                            Dịch vụ ẩm thực                                   
+                                                        </div>
+                                                        <span><a class="category_list_little_item" href="">Buffe</a></span>
+                                                        <span><a class="category_list_little_item" href="">Nhà hàng</a></span>
+                                                        <span><a class="category_list_little_item" href="">Quán ăn</a></span>
+                                                        <span><a class="category_list_little_item" href="">Đặc biệt</a></span>
+                                                        <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                        </div>                                         
+                                        <div class="category_list_hover_img col p-6">
+                                        <img src="https://s3-hd.hotdeal.vn/original/2021/4/0/606d6d71acc4c-330x520.jpg">
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                        </li>                
+                        <li onmouseover="onhover(this)" onmouseout="offhover(this)" class="category_main_list category_main_list_extra">
+                            <a href="">
+                                <span>
+                                    <i class="fas fa-shopping-bag"></i> 
+                                    <span class="category_main_list_text">Massage Nam Nữ</span>
+                                </span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                            <!-- hover list-item -->
+                            <div class="category_main_list_hover" style="display: none;">
+                                <!-- <div class=" col p-6"> -->
+                                    <div class="row">
+                                        <div style="padding: 24px 0 24px 36px;" class=" col p-6">
+                                            <div class="row">
+                                                <div class=" col p-6">
+                                                    <div class="in_category_list_header">
+                                                        <div>
+                                                            <span class="in_category_list_btn">HOT</span>
+                                                            <span class="in_category_list_btn_info">Bán chạy</span>
+                                                        </div>
+                                                        <div>
+                                                            <span class="in_category_list_btn">NEW</span>
+                                                            <span class="in_category_list_btn_info">Hàng mới</span>
+                                                        </div>
+                                                        <div>
+                                                            <span class="in_category_list_btn">SALE</span>
+                                                            <span class="in_category_list_btn_info">Giảm giá</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="category_list_little">
+                                                        <div class="category_list_little_name"> 
+                                                            Dịch vụ ẩm thực                                   
+                                                        </div>
+                                                        <span><a class="category_list_little_item" href="">Buffe</a></span>
+                                                        <span><a class="category_list_little_item" href="">Nhà hàng</a></span>
+                                                        <span><a class="category_list_little_item" href="">Quán ăn</a></span>
+                                                        <span><a class="category_list_little_item" href="">Đặc biệt</a></span>
+                                                        <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                                    </div>
+                                                    <div class="category_list_little">
+                                                        <div class="category_list_little_name"> 
+                                                            Đồ ăn ngon                                   
+                                                        </div>
+                                                        <span><a class="category_list_little_item" href="">Bánh giọt</a></span>
+                                                        <span><a class="category_list_little_item" href="">Kem</a></span>
+                                                        <span><a class="category_list_little_item" href="">Nước uống</a></span>
+                                                        <span><a class="category_list_little_item" href="">Pizza</a></span>
+                                                        <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                                    </div>
+                                                </div>
+                                                <div class="col p-6">
+                                                    <div class="category_list_little">
+                                                        <div class="category_list_little_name"> 
+                                                            Dịch vụ ẩm thực                                   
+                                                        </div>
+                                                        <span><a class="category_list_little_item" href="">Buffe</a></span>
+                                                        <span><a class="category_list_little_item" href="">Nhà hàng</a></span>
+                                                        <span><a class="category_list_little_item" href="">Quán ăn</a></span>
+                                                        <span><a class="category_list_little_item" href="">Đặc biệt</a></span>
+                                                        <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                                    </div>
+                                                    <div class="category_list_little">
+                                                        <div class="category_list_little_name"> 
+                                                            Đồ ăn ngon                                   
+                                                        </div>
+                                                        <span><a class="category_list_little_item" href="">Bánh giọt</a></span>
+                                                        <span><a class="category_list_little_item" href="">Kem</a></span>
+                                                        <span><a class="category_list_little_item" href="">Nước uống</a></span>
+                                                        <span><a class="category_list_little_item" href="">Pizza</a></span>
+                                                        <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                                    </div>
+                                                    <div class="category_list_little">
+                                                        <div class="category_list_little_name"> 
+                                                            Dịch vụ ẩm thực                                   
+                                                        </div>
+                                                        <span><a class="category_list_little_item" href="">Buffe</a></span>
+                                                        <span><a class="category_list_little_item" href="">Nhà hàng</a></span>
+                                                        <span><a class="category_list_little_item" href="">Quán ăn</a></span>
+                                                        <span><a class="category_list_little_item" href="">Đặc biệt</a></span>
+                                                        <span><a style="text-decoration: underline;" class="category_list_little_item" href="">Xem thêm</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                        </div>                                         
+                                        <div class="category_list_hover_img col p-6">
+                                        <img src="https://s3-hd.hotdeal.vn/original/2021/4/0/606d6d71acc4c-330x520.jpg">
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                        </li>                
+                        <li class="category_main_list category_main_list_extra">
+                            <a href="">
+                                <span>
+                                    <i class="fas fa-shopping-bag"></i> 
+                                    <span class="category_main_list_text">Đào Tạo &amp; Hội Thảo</span>
+                                </span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </li>                
+                        <li class="category_main_list category_main_list_extra">
+                            <a href="">
+                                <span>
+                                    <i class="fas fa-shopping-bag"></i> 
+                                    <span class="category_main_list_text">Bệnh viện &amp; Phòng Khám</span>
+                                </span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </li>                
+                        <li class="category_main_list category_main_list_extra">
+                            <a href="">
+                                <span>
+                                    <i class="fas fa-shopping-bag"></i> 
+                                    <span class="category_main_list_text">Buffet</span>
+                                </span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </li>                
+                        <li class="category_main_list category_main_list_extra">
+                            <a href="">
+                                <span>
+                                    <i class="fas fa-shopping-bag"></i> 
+                                    <span class="category_main_list_text">Nha Khoa</span>
+                                </span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </li>                
+                        <li class="category_main_list category_main_list_extra">
+                            <a href="">
+                                <span>
+                                    <i class="fas fa-shopping-bag"></i> 
+                                    <span class="category_main_list_text">Tour du lịch</span>
+                                </span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </li>                
+                        <li class="category_main_list category_main_list_extra">
+                            <a href="">
+                                <span>
+                                    <i class="fas fa-shopping-bag"></i> 
+                                    <span class="category_main_list_text">Hotel &amp; Resort</span>
+                                </span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </li>                
+                        <li class="category_main_list category_main_list_extra">
+                            <a href="">
+                                <span>
+                                    <i class="fas fa-shopping-bag"></i> 
+                                    <span class="category_main_list_text">Vé Sự Kiện</span>
+                                </span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </li>                
+                    </div>
+                     <!--hover category  -->
+                </div>
                 <div class="header_shop_bottom header_shop_fixed">
                     <div style="margin-left: 15px;" class="header_shop_bottom_warp">
                         <div class="header_shop_fixed_logo">
@@ -784,7 +1684,7 @@
                     </button>    
                 </div>
                 <div class="row">
-                    <div class="col p-9">
+                    <div class="col p-9 t-12 m-12">
                         <div class="wrap_btn_detail-coment-address">
                             <div class="btn btn_detail-coment-address active">
                                 THÔNG TIN CHI TIẾT
@@ -831,18 +1731,148 @@
                                         </div>
                                     </div>
                                </div>
-                               <h3 id="danhgia" class="box_detail-coment-address_title detail_title">DANH GIÁ SẢN PHẨM</h3>                    
-                               <div class="box_adress">
-                               
+                               <h3 id="danhgia" class="box_detail-coment-address_title detail_title">ĐÁNH GIÁ SẢN PHẨM</h3>                    
+                               <div class="box_adress box_adress_review">
+                                    <div class="review_rate_stars_wrap">
+                                        <div class="review_rate_stars_sum">
+                                            <div>
+                                            <span class="review_rate_stars_store">5</span>  
+                                            <span class="review_rate_stars_store_up"> trên 5</span>
+                                            </div>
+                                            <div>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="review_rate_filter_wrap">
+                                            <span class="review_rate_filter">
+                                                5 Sao (5)
+                                            </span>
+                                            <span class="review_rate_filter">
+                                                4 Sao (1)
+                                            </span>
+                                            <span class="review_rate_filter">
+                                                3 Sao (0)
+                                            </span>
+                                            <span class="review_rate_filter">
+                                                2 Sao (0)
+                                            </span>
+                                            <span class="review_rate_filter">
+                                                1 Sao (0)
+                                            </span>
+                                            <span class="review_rate_filter">
+                                                Có bình luận (6)
+                                            </span>
+                                            <span class="review_rate_filter">
+                                                Có hình ảnh, video(6)
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="box_user_comment_warp">
+                                        <div class="avatar_comment">
+                                            <img class="shop_avatar_img" src="https://cf.shopee.vn/file/b4729f18164648fcec78b3c877a47fde_tn">
+                                        </div>
+                                        <div class="comment_content_wrap">
+                                            <div class="comment_name">vinhbac547</div>
+                                            <div class="comment_rate">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="comment_product_size">
+                                                Phân loại hàng: Freesize(38- 62kg)
+                                            </div>
+                                            <div class="comment_main">
+                                                Mình nhận đc hàng r nè thời gian giao hành nhanh ghê vậy á,
+                                                 sử dụng sản phẩm chim ưng hết sức, ban đầu dùng nên chưa quen lắm hì , shop dễ thương nhắn tin hỏi thăm và hướng dẫn sử dụng cho shop 5 sao luôn ,
+                                                  lần sau sẽ ủn hộ shop ...... Chúc shop buôn may bán đắt nha
+                                            </div>
+                                            <div class="comment-product-rating_tags">
+                                                <div class="comment-product-rating_tag">Chất lượng sản phẩm tuyệt vời</div>
+                                                <div class="comment-product-rating_tag">Đóng gói sản phẩm rất đẹp và chắc chắn</div>
+                                                <div class="comment-product-rating_tag">Thời gian giao hàng rất nhanh</div>
+                                            </div>
+                                            <div class="comment_date">
+                                                2021-05-20 15:34
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="box_user_comment_warp">
+                                        <div class="avatar_comment">
+                                            <img class="shop_avatar_img" src="https://cf.shopee.vn/file/b4729f18164648fcec78b3c877a47fde_tn">
+                                        </div>
+                                        <div class="comment_content_wrap">
+                                            <div class="comment_name">vinhbac547</div>
+                                            <div class="comment_rate">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="comment_product_size">
+                                                Phân loại hàng: Freesize(38- 62kg)
+                                            </div>
+                                            <div class="comment_main">
+                                                Mình nhận đc hàng r nè thời gian giao hành nhanh ghê vậy á,
+                                                 sử dụng sản phẩm chim ưng hết sức, ban đầu dùng nên chưa quen lắm hì , shop dễ thương nhắn tin hỏi thăm và hướng dẫn sử dụng cho shop 5 sao luôn ,
+                                                  lần sau sẽ ủn hộ shop ...... Chúc shop buôn may bán đắt nha
+                                            </div>
+                                            <div class="comment-product-rating_tags">
+                                                <div class="comment-product-rating_tag">Chất lượng sản phẩm tuyệt vời</div>
+                                                <div class="comment-product-rating_tag">Đóng gói sản phẩm rất đẹp và chắc chắn</div>
+                                                <div class="comment-product-rating_tag">Thời gian giao hàng rất nhanh</div>
+                                            </div>
+                                            <div class="comment_date">
+                                                2021-05-20 15:34
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="box_user_comment_warp">
+                                        <div class="avatar_comment">
+                                            <img class="shop_avatar_img" src="https://cf.shopee.vn/file/b4729f18164648fcec78b3c877a47fde_tn">
+                                        </div>
+                                        <div class="comment_content_wrap">
+                                            <div class="comment_name">vinhbac547</div>
+                                            <div class="comment_rate">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="comment_product_size">
+                                                Phân loại hàng: Freesize(38- 62kg)
+                                            </div>
+                                            <div class="comment_main">
+                                                Mình nhận đc hàng r nè thời gian giao hành nhanh ghê vậy á,
+                                                 sử dụng sản phẩm chim ưng hết sức, ban đầu dùng nên chưa quen lắm hì , shop dễ thương nhắn tin hỏi thăm và hướng dẫn sử dụng cho shop 5 sao luôn ,
+                                                  lần sau sẽ ủn hộ shop ...... Chúc shop buôn may bán đắt nha
+                                            </div>
+                                            <div class="comment-product-rating_tags">
+                                                <div class="comment-product-rating_tag">Chất lượng sản phẩm tuyệt vời</div>
+                                                <div class="comment-product-rating_tag">Đóng gói sản phẩm rất đẹp và chắc chắn</div>
+                                                <div class="comment-product-rating_tag">Thời gian giao hàng rất nhanh</div>
+                                            </div>
+                                            <div class="comment_date">
+                                                2021-05-20 15:34
+                                            </div>
+                                        </div>
+                                    </div>
                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col p-3">
+                    <div class="col p-3 t-3 m-12">
                        <div class="box box_product_sell_much">
                         <div class="box_detail-coment-address_title detail_title">SẢN PHẨM BÁN CHẠY</div>
                         <div class="row">
-                            <div class="col p-12 t-12 m-12">
+                            <div class="col p-12 t-12 m-6">
                                 <div class="product_warp">
                                     <span class="product_img_wrap"><img class="product_img" src="https://static.hotdeal.vn/images/1661/1660660/280x280/363447-combo-3n2d-flc-sam-son-phong-grand-comfort-gom-an-sang-01-bua-trua-01-bua-toi-01-nguoi-gia-chi-1875000-gom-ve-may-bay-khu-hoi-20kg-ky-gui-tu-sgn-thd-mien-phi-su-dung-tat-ca-tien-ich-dang-cap-tai-quan-the-khep-kin.jpg"/>
     
@@ -881,7 +1911,7 @@
                                     </div>
                                 </div>
                             </div> 
-                            <div class="col p-12 t-12 m-12">
+                            <div class="col p-12 t-12 m-6">
                                 <div class="product_warp">
                                     <span class="product_img_wrap"><img class="product_img" src="https://static.hotdeal.vn/images/1661/1660660/280x280/363447-combo-3n2d-flc-sam-son-phong-grand-comfort-gom-an-sang-01-bua-trua-01-bua-toi-01-nguoi-gia-chi-1875000-gom-ve-may-bay-khu-hoi-20kg-ky-gui-tu-sgn-thd-mien-phi-su-dung-tat-ca-tien-ich-dang-cap-tai-quan-the-khep-kin.jpg"/>
     
@@ -920,7 +1950,7 @@
                                     </div>
                                 </div>
                             </div>     
-                            <div class="col p-12 t-12 m-12">
+                            <div class="col p-12 t-12 m-6">
                                 <div class="product_warp">
                                     <span class="product_img_wrap"><img class="product_img" src="https://static.hotdeal.vn/images/1661/1660660/280x280/363447-combo-3n2d-flc-sam-son-phong-grand-comfort-gom-an-sang-01-bua-trua-01-bua-toi-01-nguoi-gia-chi-1875000-gom-ve-may-bay-khu-hoi-20kg-ky-gui-tu-sgn-thd-mien-phi-su-dung-tat-ca-tien-ich-dang-cap-tai-quan-the-khep-kin.jpg"/>
     
@@ -1325,6 +2355,7 @@
 
             </div>
         </footer>
+        
 
     </div>
 </body>

@@ -10,6 +10,10 @@ window.onscroll=()=>{
     }
 }
 //fixed menu  >
+
+// hover category fixed
+
+// 
 $(".shop_area_select").onclick=function(){
     $(".dropdown-menu_wrap_select").classList.toggle("show");   
 }
